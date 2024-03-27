@@ -1,0 +1,123 @@
+body{
+    font-family: khand;
+    cursor:default;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+button:hover{
+    color: rgb(255,253,251);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(255, 253, 250);
+    text-decoration: underline;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    margin: 40px 0px 0px 20px;
+}
+#home{
+    height: 700px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(goku-artistic-fusion-legacy-7b.jpg);
+    padding: 20px 0px 0px 60px;
+}
+#title{
+    color: rgb(255,253,250);
+    font-size: 52px;
+    font-weight: 700;
+}
+#desp{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 40px 20px;
+}
+#about{
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    padding: 40px 0px 20px 60px;
+    background-color: rgb(120, 126, 129);
+}
+#services{
+    font-size: 24px;
+    height: 700px;
+    padding: 40px 60px 0px 60px;
+    background-color: rgb(120, 126, 129);
+}
+#menu{
+    width: 250px;
+    float: right;
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7PX 20PX 5PX 20PX;
+    margin-right: 50px;
+    cursor: pointer;
+    border: 2px solid rgb(0,0,0);
+    border-radius: 25px 0px 25px 25px;
+}
+#wo{
+    display: flex;
+    flex-direction: column;
+}
+#lii{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#exs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.exs{
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pack{
+    font-size: 20px;
+    width: 275px;
+}
+h3 + p{
+    width: 850px;
+}
+li > p{
+    display: none;
+    font-size: 19px;
+    padding-left: 15px;
+}
